@@ -1,0 +1,22 @@
+#programa estoque com frete
+#variaveis de memória
+VCONT='S'
+Vproduto=''
+Vquantidade=0
+Vvalor=0.0
+Vpeso=0.0
+# criando lista
+Lproduto=[]
+Lvalor=[]
+Lquantidade=[]
+Lpeso=[]
+print("SISTEMA vendas")
+while VCONT =='s':
+    Vproduto=input('digite o produto:')
+    valor=float(input('valor:'))
+    Vquantidade=int(input("quat"))
+    Vpeso=float(input('peso:'))
+    Lproduto.append(vproduto)
+    Lvalor.append(vlalor)
+    Lquantidade.append(vquantidade)
+    Lpeso.append(vpeso)
